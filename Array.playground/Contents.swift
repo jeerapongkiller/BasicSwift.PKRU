@@ -28,3 +28,40 @@ print("นี่คือ intArrayNumber1 ใหม่ ==> \(intArrayNumber1)")
 print("strName1 ==> \(strName1)")
 strName1.append("Natsu")
 print("นี่คือ strName1 ใหม่ ==> \(strName1)")
+
+//การลบสมาชิกของ Array
+print("intNumber1 ==> \(intArrayNumber1)")
+intArrayNumber1.remove(at: 2)
+print("New intNumber1 ==> \(intArrayNumber1)")
+
+//นี่คือการเรียงสมาชิกใน Array
+intArrayNumber1.append(10)
+intArrayNumber1.append(21)
+intArrayNumber1.append(56)
+print("intArrayNumber1 ==> \(intArrayNumber1)")
+
+//การเรียงตัวอักษร
+
+intArrayNumber1.sort()
+print("New intArrayNumber1 ==> \(intArrayNumber1)")
+
+//การนับจำนวนสมาชิก
+
+let intCount = intArrayNumber1.count
+print("Count ==>\(intCount)")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
