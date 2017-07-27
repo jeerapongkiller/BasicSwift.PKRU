@@ -22,4 +22,5 @@ print("strDicName ล่าสุด ==> \(strDicName["windows"]!)")
 print(strDicName)
 
 strDicName.removeValue(forKey: "iOS")
-print(strDicName)           
+print(strDicName)
+print(strDicName["New"])
