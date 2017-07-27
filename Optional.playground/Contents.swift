@@ -12,7 +12,7 @@ var strName: String = "5"
 //Int(Five) จะมีค่าเป็น nil
 strName = "Five"
 
-strName = "4"
+strName = "8"
 
 //วิธีการแก้ปัญหา จะทำอย่างไรใหเ Operated สามารถเอาค่า nil ไปทำงานแล้วไม่ Error
 
@@ -22,6 +22,7 @@ let intName = Int(strName)
 
 if let intNumber = intName {
     let intAnswer = intNumber * 5
+    print("intAnswer ==> \(intAnswer)")
 }else{
     print("intNumber ==> Error  \(String(describing: strName))")
 }
